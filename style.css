@@ -1,0 +1,410 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+head.title {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    font: size 30px;
+    background-color: red
+}
+
+
+/*start header*/
+.container {
+    width: 100%;
+    height: 100%;
+    background-color: green;
+    background size: cover padding-left: 8%;
+    padding-right: 8%;
+    padding-left: 8%;
+    box-sizing: border-box;
+
+
+
+}
+
+.naveb {
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 80px;
+    cursor: pointer;
+}
+
+nav {
+    flex: 1;
+    text-align: left;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: yellow;
+    font-size: 13px;
+}
+
+.card {
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-image: url(../غزه.jfif);
+    background-position: center;
+    background-size: cover;
+
+}
+
+/*end header*/
+
+
+
+
+
+
+
+/*marquee*/
+.me {
+    color: red;
+    background-color: black;
+    width: 100%;
+    font-variant-alternates: normal;
+    direction: ltr;
+
+
+}
+
+
+
+/*start flag*/
+.con {
+    direction: ltr;
+    background-color: aliceblue;
+    height: 300px;
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.black {
+    height: 100px;
+    width: 600px;
+    background-color: black;
+}
+
+.white {
+    height: 100px;
+    width: 600px;
+    background-color: white;
+}
+
+.green {
+    height: 100px;
+    width: 600px;
+    background-color: green;
+
+}
+
+.red {
+    height: 0px;
+    width: 0px;
+    border-bottom: 150px solid transparent;
+    border-top: 150px solid transparent;
+    border-left: 150px solid red;
+    position: absolute;
+}
+
+.marquee {
+    background-color: red;
+    scroll-behavior: smooth;
+}
+
+/*end flag*/
+
+
+p.shaf {
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    text-transform: uppercase
+}
+
+pre.shaf {
+    border: 5px dotted black;
+    border-radius: 60px 60px;
+    width: 600px;
+    padding: 10px;
+    margin: 30px 100px;
+    background-color: cadetblue;
+
+}
+
+p.shaf {
+    background-color: azure;
+    min-width: 300px;
+    word-spacing: 5px;
+    line-height: 30px;
+
+
+    /*strt section*/
+}
+
+body,
+html {
+    overflow-x: hidden;
+}
+
+section {
+    width: 80%;
+    margin: 80px auto;
+}
+
+.row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    background-color: blanchedalmond;
+
+
+
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    box-shadow: 0 5px 25px rgba(1, 1, 1, 100%);
+    border-radius: 10px;
+    transition: 0.7s ease;
+    padding: 25px;
+    margin: 15px;
+    background-color: aqua;
+}
+
+.col:hover {
+    transform: scale(1.1);
+}
+
+.col:hover.col.img {
+    opacity: 0.9;
+
+
+}
+
+.event.row {
+    margin-top: 50px;
+}
+
+h4 {
+    font-size: 3vmin;
+    color: blueviolet;
+    margin: 20px auto;
+}
+
+.col p {
+    color: sandybrown;
+    padding: 0px 40px;
+    font-weight: 100;
+}
+
+.event.ctn {
+    margin-top: 30px;
+
+}
+
+.row.col img {
+    width: 80;
+}
+
+/* end section*/
+
+
+
+/*start aside*/
+.sidebar {
+    position: fixed;
+    right: 250px;
+    width: 250px;
+    height: 100%;
+    background-color: blueviolet;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 1);
+    transition: all .5s ease;
+}
+
+.sidebar ul {
+    width: 100%;
+    list-style: none;
+
+}
+
+.sidebar ul a {
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 65px;
+    font-size: 20px;
+    color: white;
+    padding-right: 40px;
+    box-sizing: border-box;
+    border-top: 1px solid rgba(255, 255, 255, 1);
+    border-bottom: 1px solid black;
+    transition: .4s;
+}
+
+.sidebar ul li {
+    list-style: none;
+    width: 100%;
+
+}
+
+.sidebar ul :hover a {
+    padding-right: 50px;
+
+}
+
+#chek {
+    display: none;
+}
+
+label#btm,
+label#cancel {
+    position: absolute;
+    cursor: pointer;
+    background-color: salmon;
+    border-radius: 3px;
+    padding: 4px 9px;
+}
+
+label#btn {
+    right: 40px;
+    top: 25px;
+    font-size: 35px;
+    color: red;
+    transition: all .5s;
+    padding: 6px 12px;
+
+}
+
+label#cancel {
+    z-index: 1111;
+    left: 159px;
+    top: 17px;
+    font-size: 30px;
+    color: mediumspringgreen;
+    padding: 4px 9px;
+}
+
+#chek:checked -sidebar {
+    left: 0%;
+}
+
+#chek:checked .label#btn {
+    left: 250px;
+    opacity: 0;
+    pointer-events: none;
+}
+
+/* end aside*/
+
+
+
+
+
+
+
+
+
+/*start footer*/
+.footer {
+
+    background-color: gray;
+    border: 5px solid black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-title {
+    font-size: 1.5em;
+    font-weight: 500;
+    color: green;
+
+}
+
+.footer.footer.soscial-icon a {
+    font-size: 1.3em;
+}
+
+/* end footer*/
+.htin {
+    background-color: rgb(224, 223, 223);
+    border: solid 3px green;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 15px;
+    display: flex;
+    font-size: 1cm;
+    font-weight: 800;
+    letter-spacing: 3px;
+    justify-content: center;
+    animation-name: htina;
+    animation-delay: 3s;
+    animation-duration: 10s;
+    transition: 2s;
+
+
+}
+@keyframes htina{
+    30%{
+          background-color: rgb(30, 51, 170);
+    }
+    30%{
+          background-color: rgb(34, 139, 195);
+    }
+    30%{
+        background-color: rgb(100, 166, 202) ;
+    }
+    10%{
+        background-color:rgb(167, 197, 213) ;
+    }
+}
+ 
+ 
+.htinimg{
+    background:#594a4a;
+    display:inline-flex;
+    padding: 20px;
+    margin-right: 350px;
+    float: left;
+    margin: 10px;
+}
+.htinp{
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(49, 46, 46);
+    font-weight: bold;
+    padding: 5px;
+    padding-top: 5px;
+}
+.htinh{
+    color:rgb(9, 9, 207);
+    padding: 3px;
+}
